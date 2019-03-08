@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/Phone"
+                android:layout_width="120dp"
+                android:layout_height="180dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/phone" />
+
+            <ImageView
+                android:id="@+id/Live"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/Phone"
+                android:src="@drawable/live" />
+
+            <ImageView
+                android:id="@+id/Pc"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/Live"
+                android:layout_toRightOf="@+id/Phone"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/pc" />
+            <ImageView
+                android:id="@+id/Bag"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/Live"
+                android:src="@drawable/bag" />
+            <ImageView
+                android:id="@+id/Toys"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/Live"
+                android:layout_toRightOf="@+id/Pc"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/toys" />
+            <ImageView
+                android:id="@+id/Cosmetics"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/Bag"
+                android:src="@drawable/cosmetics" />
+            <ImageView
+                android:id="@+id/Luxury"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/Cosmetics"
+                android:layout_toRightOf="@+id/Toys"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/luxury" />
+            <ImageView
+                android:id="@+id/Gold"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/Cosmetics"
+                android:src="@drawable/gold" />
+            <ImageView
+                android:id="@+id/Vt"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/Gold"
+                android:layout_toRightOf="@+id/Luxury"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/vi" />
+
+        </RelativeLayout>
+
+    </HorizontalScrollView>
+
+
+
+</LinearLayout>

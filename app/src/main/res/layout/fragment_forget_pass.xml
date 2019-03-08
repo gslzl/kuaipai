@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ForgetPassFragment">
+
+    <EditText
+        android:id="@+id/et_newphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:fontFamily="@font/textsize"
+        android:hint="手机/账号"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/et_newchecknumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_newphone"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/textsize"
+        android:hint="验证码" />
+
+    <Button
+        android:id="@+id/btn_newgetchecknumber"
+        android:layout_width="157dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="@font/textsize"
+        android:text="获取验证码"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/et_newpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_newchecknumber"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/textsize"
+        android:hint="新密码"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/et_newcheckpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_newpass"
+        android:layout_marginTop="39dp"
+        android:fontFamily="@font/textsize"
+        android:hint="确认密码"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/btn_newpass"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/color_selector"
+        android:textSize="40dp"
+        android:fontFamily="@font/textsize"
+        android:text="确            认"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
